@@ -63,7 +63,7 @@ void solve(){
 }
 int main()
 {
-    //std::ios::sync_with_stdio(false);
+    std::ios::sync_with_stdio(false);
     cin.tie(nullptr);
     solve() ;
 }
