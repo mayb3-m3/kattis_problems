@@ -1,1 +1,1 @@
-Just some naive solution to the problems on Kattis that i have solved
+Just some naive solution to the problems(not the super easy ones) on Kattis that i have solved
