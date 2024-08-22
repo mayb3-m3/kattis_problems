@@ -63,7 +63,7 @@ void solve(){
         else
             ans.pub(count), ans.pub(i), count = 2;
     }
-    ans.pub(count);
+    ans.pub(count-1);
     int count1 = 0, count2 = 0;
     for(int i = 1; i < int(ans.size())-1; i++){
         if(ans[i] == imax && ans[i-1] >= b && ans[i+1] >= b)
