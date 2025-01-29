@@ -29,7 +29,7 @@ void solve(){
         vector<string> v = parse(str);
         ll p = stoll(v[1]), c = stoll(v[2]);
         ll t = stoll(v[3]), r = stoll(v[4]);
-        if(10080*t*c >= l*(t+r)){
+        if(10080*t*c >= l*(t+r)){ //can we finish cutting whole yard in one week(10080 minutes)??
             if(ans.empty())
                 ans.push_back({v[0], p});
             else{
